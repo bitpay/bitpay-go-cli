@@ -1,7 +1,8 @@
 language: go
 # command to install dependencies
 install:
-  - "pip install -r helpers/requirements.txt"
+  - "sudo pip install -r helpers/requirements.txt"
+  - "rm -rf src/github.com src/golang.org"
   - "go get -t -u github.com/bitpay/bitpay-go/client"
 # command to run tests
 script: 
