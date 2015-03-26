@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	bp "github.com/philosodad/bitpay-go/client"
-	ku "github.com/philosodad/bitpay-go/key_utils"
+	bp "github.com/bitpay/bitpay-go/client"
+	ku "github.com/bitpay/bitpay-go/key_utils"
 	"io/ioutil"
 	"os"
 	"strconv"
