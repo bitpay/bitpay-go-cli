@@ -24,3 +24,6 @@ _testmain.go
 *.prof
 
 ghostdriver*
+src/github.com/
+src/golang.org/
+pkg/
